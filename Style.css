@@ -1,1 +1,27 @@
+*{
+  marginn: 0;
+  podding: 0;
+ }
+body{
 
+}
+
+}
+
+#banner{
+  width: 100%
+}
+.principal{
+  background: #cccccc;
+  padding: 30px;
+}
+h1{
+  text-align:center;
+}
+
+p{
+  text-align: center;
+  fint-size: 20px;
+}
+
+#missao{
