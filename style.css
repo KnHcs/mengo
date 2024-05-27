@@ -89,8 +89,7 @@ padding: 40px 0;
   margin: 20px 0 0;
 }
 main{
-  width: 940px;
-  margin: 0 auto;
+ 
 }
 form{
   margin: 40px 0;
@@ -173,6 +172,11 @@ body {
 
 .imagem-beneficios {
 	width: 60%;
+}
+
+.conteudo-beneficios{
+  width: 940px;
+  margin: 0 auto;
 }
 
 .mapa {
