@@ -1,4 +1,4 @@
-body {
+body{
 	font-family: "Montserrat", sans-serif;
  	font-optical-sizing: auto;
   	font-weight: 400;
@@ -174,6 +174,7 @@ td, th {
 	width: 940px;
 	margin: 0 auto;
 }
+
 .principal p {
 	margin: 0 0 1em;
 }
@@ -192,8 +193,23 @@ td, th {
 	margin: 0 20px 20px 0;
 }
 
-.imagem-beneficios {
-	width: 60%;
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
 }
 
 .conteudo-beneficios {
@@ -215,18 +231,19 @@ td, th {
 	font-weight: bold;
 }
 
-.beneficios {
-	padding: 3em 0;
-	background: #888888;
+.itens:before {
+    content: "★";
 }
 
-.mapa {
-	padding: 3em 0;
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+    	transition: 400ms;
+    	box-shadow: 10px 10px 10px 0 #000000;
 }
 
-.mapa p {
-	margin: 0 0 2em;
-	text-align: center;
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .video {
@@ -234,26 +251,20 @@ td, th {
 	margin: 2em auto;
 }
 
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
 
-/* Proxima aula
+    h1 {
+        text-align: center;
+    }
 
-*inserir na linha 171 
-.principal {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 940px;
-	margin: 0 auto;
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
-
-
-* inserir entre .mapa e .mapa p
-.mapa-conteudo {
-	width: 940px;
-	margin: 0 auto;
-}
-
-Mudar a ordem de todas as classes mapa deixando após a classe utensilios
-
-inverter a posição das classes benefícios e imagem-beneficios
-
-*/
